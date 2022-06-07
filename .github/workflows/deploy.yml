@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        uses: actions/npm-install@v1
-
       - name: Build project
         run: npm run build
 
