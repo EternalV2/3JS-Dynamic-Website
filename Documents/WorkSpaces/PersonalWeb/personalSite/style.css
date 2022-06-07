@@ -1,0 +1,157 @@
+canvas{
+    position: fixed;
+    top: 0; 
+    left: 0;
+}
+
+:root{
+    --dark-bg: rgba(142, 142, 171, 0.9);
+    --dark-bar: rgba(160, 160, 130, 0.9);
+    --spacing: 220px;
+}
+
+main{
+    width: 100vw;
+    color: black;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    font-size: 2.2rem;
+}
+
+header{
+    background: var(--dark-bg);
+    grid-column: 2/span 6;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+    border-radius: 75px;
+}
+
+section{ 
+    grid-column: 2/span 10;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: (2rem);
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+    border-radius: 75px;
+}
+
+banner{
+    background: var(--dark-bg);
+    grid-column: 1/span 12;
+    margin-bottom: 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1.8rem;
+    font-weight:600;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+about{
+    grid-column: 1/ span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+projects{
+    grid-column: 2/ span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+contacts{
+    grid-column: 3/ span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bro1{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.bro2{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.bro3{
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.drug{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    grid-column: 9/ span 3;
+    border-radius: 150px;
+}
+
+/*.ruShield{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 150px;
+    grid-column: 10/ span 2;
+}
+
+.speedApp{
+    height: auto;
+    width: 225px;
+    border-radius: 20px;
+    object-fit: cover;
+    grid-column: 9/span 2;
+}
+
+.DrawApp{
+    height: auto;
+    width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+    grid-column: 11/span 1;
+}*/
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#gApp:visited{
+    text-decoration: underline;
+    color: black;
+}
+
+#gApp{
+    text-decoration: underline;
+    color: black;
+}
