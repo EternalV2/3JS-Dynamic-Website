@@ -20,7 +20,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        uses: bahmutov/npm ci --no-optional@v1
+        uses: bahmutov/call npm ci --no-optional@v1
 
       - name: Build project
         run: npm run build
