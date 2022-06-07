@@ -30,6 +30,10 @@
       "supports-preserve-symlinks-flag": "^1.0.0"
     },
     
+    "optionalDependencies": {
+    "fsevents": "^2.3.2"
+    }
+    
     "author": "",
     "license": "ISC",
     "description": ""
